@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <title>Tiny Keyboard Garden</title>
+        <meta
+            name="description"
+            content="A tiny fullscreen keyboard playground for very young children. Press keys, explore shapes, and watch geometry gently become soft and calm again."
+        />
+        <meta property="og:title" content="Tiny Keyboard Garden" />
+        <meta
+            property="og:description"
+            content="A tiny fullscreen keyboard playground for very young children. Press keys, explore shapes, and watch geometry gently become soft and calm again."
+        />
+        <meta property="og:type" content="website" />
+        <link rel="stylesheet" href="./src/styles.css" />
+        <script src="./src/app.js" defer></script>
+    </head>
+    <body>
+        <canvas id="stage" aria-label="Tiny Keyboard Garden Geometry Blobs"></canvas>
+
+        <div id="overlay" class="overlay">
+            <div class="card">
+                <h1>Tiny Keyboard Garden</h1>
+                <p>
+                    Press any key. Shapes gently lose their geometry when explored, then calmly
+                    remember their shape when the keyboard rests.
+                </p>
+                <div class="pill-row" aria-hidden="true">
+                    <span class="pill">left/right keys drift</span>
+                    <span class="pill">top keys color</span>
+                    <span class="pill">space releases shapes</span>
+                    <span class="pill">F11 exits</span>
+                </div>
+                <p class="small">Variant 2: geometry becomes blob, blob becomes geometry again.</p>
+            </div>
+        </div>
+    </body>
+</html>

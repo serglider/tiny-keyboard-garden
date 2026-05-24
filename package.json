@@ -1,0 +1,24 @@
+{
+    "name": "tiny-keyboard-garden",
+    "version": "1.0.0",
+    "description": "A tiny fullscreen keyboard playground for very young children.",
+    "private": true,
+    "license": "MIT",
+    "scripts": {
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
+    },
+    "prettier": {
+        "printWidth": 100,
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": true,
+        "trailingComma": "all",
+        "bracketSpacing": true,
+        "arrowParens": "always",
+        "endOfLine": "lf"
+    },
+    "devDependencies": {
+        "prettier": "^3.8.3"
+    }
+}
