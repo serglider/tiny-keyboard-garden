@@ -1,6 +1,6 @@
 {
     "name": "tiny-keyboard-garden",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "A tiny fullscreen keyboard playground for very young children.",
     "private": true,
     "license": "MIT",

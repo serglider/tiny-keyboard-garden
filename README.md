@@ -2,7 +2,7 @@
 
 Tiny Keyboard Garden is a tiny fullscreen keyboard playground for very young children.
 
-It is a simple cause-and-effect keyboard playground, not a typing trainer. Children can press keys or click to explore soft shapes, colors, and motion without scores, forms, ads, or external assets.
+It is a simple cause-and-effect keyboard playground. Children can press keys or click to explore soft shapes, colors, and motion without scores, forms, ads, or external assets.
 
 ## Controls
 
